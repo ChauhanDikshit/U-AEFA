@@ -1,4 +1,4 @@
-# U-AEFA: Online and offline learning-based unified artificial electric field algorithm for real parameter optimization
+# U-AEFA: Online and offline learning-based unified artificial electric field algorithm for real parameter optimization, Knowledge-Based Systems
 # Abstract
 Optimization problems in real-world scenarios require algorithms that effectively balance exploration and exploitation to avoid local optima and achieve global solutions. To address this, we propose a unified artificial electric field algorithm (U-AEFA) that integrates both offline learning (inspired by high-performing metaheuristic algorithms) and online learning (through historical data generated during evolution). U-AEFA introduces a unique three-layer population structure to enhance search efficiency, consisting of the best agent in the first layer, the top-performing agents in the second layer, and the remaining agents in the third layer. Key features of U-AEFA include (i) an effective Coulomb's constant for improved exploration, (ii) a non-uniform mutation operator to mitigate premature convergence, and (iii) two acceleration coefficients for enhanced performance. These three factors constitute offline learning and have been implemented to improve different design elements of the algorithm. As part of online learning, it employs a difference vector reuse (DVR) strategy to evolve the first-layer agents. The algorithm is evaluated using the CEC 2017 test suite across multiple dimensions (10, 30, 50, 100), where it consistently outperforms seven state-of-the-art algorithms, demonstrating superior accuracy and convergence speed. Moreover, U-AEFA's robustness is validated on 12 high-dimensional feature selection problems, further highlighting its effectiveness in solving complex optimization tasks.
 
@@ -24,3 +24,5 @@ abstract = {Optimization problems in real-world scenarios require algorithms tha
   year={2024},
   publisher={Elsevier}
 }
+# Thanks 
+Dr. Anupam Trivedi and Dr. Anupam Yadav
